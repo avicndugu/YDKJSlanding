@@ -9,15 +9,17 @@
 </head>
 <body>
 <div class="container-fluid">
-	<nav>
+<header id="header">
+	<nav id="nav-bar">
 		<ul>
-			<li><a href="#">The book series</a></li>
+			<li class="nav-link"><a href="#books">The book series</a></li>
 			<!-- <li><a href="#">what is included</a></li> -->
-			<li><a href="#">Testimonials<!-- What the customers are saying --></a></li>
-			<li><a href="#">The Author</a></li>
-			<li><a href="#">Free resources</a></li>
+			<li class="nav-link"><a href="#">Testimonials<!-- What the customers are saying --></a></li>
+			<li class="nav-link"><a href="#author">The Author</a></li>
+			<li class="nav-link"><a href="#who">Free resources</a></li>
 		</ul>
 	</nav>
+</header>
 	<main>
 		<h1>You dont know JavaScript</h1>
 		<div class="row" id="main-landing">
@@ -116,6 +118,12 @@
 			<p>Gain a complete understanding of the gotchas in javaScript. This book series will help you fix the workarounds you have been using without understanding what was happening.</p>
 			<h3>Javascript Newbies</h3>
 			<p>This book will help you learn Javascript the right way. It will help you overcome the common pitfalls that most javascript developers go through everday.</p>
+			<form id="form">
+				<input type="email" name="email" placeholder="johndoe@gmail.com">
+				<br>
+				<br>
+				<button>Get started</button>
+			</form>
 		</div>
 	</main>
 	<footer>

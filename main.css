@@ -65,11 +65,15 @@ a {
 	text-align: center;
 	padding:10px 10px;
 }
+form{
+	margin:20px;
+	text-align:center;
+}
 /*********************NAV BAR STYLING **********************/
 nav{
 	background:#363636;
 	margin-bottom:-17px;
-
+	position:top;
 }
 ul {
 	list-style-type: none;
